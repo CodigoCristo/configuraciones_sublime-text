@@ -40,3 +40,10 @@
 		 "word_wrap": "auto"
 }
 ```
+
+###### sudo nano /etc/hosts
+```
+127.0.0.1 license.sublimehq.com
+127.0.0.1 www.sublimetext.com
+```
+
