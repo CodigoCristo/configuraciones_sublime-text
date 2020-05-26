@@ -1,0 +1,4 @@
+{
+	"cmd": ["lxterminal  -e 'bash -c \"sh $file_name ; echo ; read line\"'"],
+	"shell": true
+}

@@ -1,0 +1,4 @@
+{
+	"cmd": ["lxterminal  -e 'zsh -c \"python $file_name ; echo ; read line\"'"],
+	"shell": true
+}

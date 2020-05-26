@@ -1,0 +1,8 @@
+{
+	"cmd": ["lxterminal  -e 'zsh -c \"javac $file_name &&  java ${file_base_name} ; echo ; read line\"'"],
+	"shell": true
+}
+
+
+// javac HolaMundo.java
+// java HolaMundo

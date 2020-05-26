@@ -1,0 +1,4 @@
+{
+	"cmd": ["lxterminal  -e 'zsh -c \"g++ $file_name -o ${file_base_name} && ./${file_base_name} ; echo ; read line\"'"],
+	"shell": true
+}

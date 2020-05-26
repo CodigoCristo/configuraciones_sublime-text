@@ -1,0 +1,12 @@
+{
+	"cmd": ["lxterminal  -e 'zsh -c \"gcc -lm `pkg-config --cflags --libs gtk+-3.0` -export-dynamic $file_name -o ${file_base_name} && ./${file_base_name} ; echo ; read line\"'"],
+	"shell": true
+}
+
+// Para Curso en C
+// -ansi -lm -Wall -pedantic
+// -std=c11   > ansi C 2011
+
+// Para Curso de GTK
+// -lm `pkg-config --cflags --libs gtk+-3.0` -export-dynamic
+
